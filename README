@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Metadata for SEO -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simple HTML Page</title>
+  <meta name="description" content="A simple HTML5 page with semantic structure, accessibility, and SEO-friendly content.">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Welcome to My Simple Page</h1>
+    <!-- Navigation Menu -->
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content Section -->
+  <main id="content">
+    <!-- Article Content -->
+    <article>
+      <h2 id="about">About</h2>
+      <p>This page is created as a simple example of semantic HTML5 structure.</p>
+
+      <h2 id="services">Services</h2>
+      <p>We provide educational resources and inclusive teaching strategies.</p>
+    </article>
+
+    <!-- Sidebar Section -->
+    <aside>
+      <h2>Latest News</h2>
+      <p>New updates will appear here.</p>
+    </aside>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; <span id="year">2025</span> My Simple Page. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript for dynamic year -->
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
